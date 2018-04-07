@@ -1,0 +1,8 @@
+*{
+	margin:0;
+	padding:0;
+}
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+}
