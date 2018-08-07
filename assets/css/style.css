@@ -1,13 +1,12 @@
-@font-face{
-	font-family: 'Raleway';
-	src: url(../fonts/Raleway/Raleway-Regular.ttf);
-	font-display: fallback;
-}
-@font-face{
-	font-family: 'Lobster';
-	src: url(../fonts/Lobster/Lobster.ttf);
-	font-display: fallback;
-}
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/*!
+ * Clean v2.0.0
+ * Homepage: http://scripteden.com
+ * Copyright 2015 Script Eden
+ * Licensed under MIT
+*/
 
 figcaption>p{
 	font-weight: 700;
@@ -300,7 +299,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/test-back4.jpg);
+    background: url(../images/item-3.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -974,25 +973,5 @@ figure.effect-bubba:hover p {
 		width: 80px;
 	}
 
-}
-#my-photo{
-	-moz-transition: all 0.4s ease-out;
-	 -o-transition: all 0.4s ease-out;
-	 -webkit-transition: all 0.4s ease-out;
-}
-
- #my-photo:hover{
-	-webkit-transform: scale(1.2);
-	 -moz-transform: scale(1.2);
-	 -o-transform: scale(1.2);
-}
-
-@media (max-device-width:400px){
-	#my-photo{
-		width:120px;
-	}
-	#br-name{
-		display: none;
-	}
 }
 
