@@ -1,13 +1,15 @@
-/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);*/
-/*@import url(http://fonts.googleapis.com/css?family=Lobster);*/
+/*@import */
+/*@import */
 @font-face{
 	font-family: 'Raleway';
-	src: url(../fonts/Raleway/Raleway-Regular.ttf);
+	/*src: url(../fonts/Raleway/Raleway-Regular.ttf);*/
+	src: url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 	font-display: fallback;
 }
 @font-face{
 	font-family: 'Lobster';
-	src: url(../fonts/Lobster/Lobster.ttf);
+	/*src: url(../fonts/Lobster/Lobster.ttf);*/
+	src: url(http://fonts.googleapis.com/css?family=Lobster);
 	font-display: fallback;
 }
 
