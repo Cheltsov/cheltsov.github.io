@@ -1,12 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
-/*!
- * Clean v2.0.0
- * Homepage: http://scripteden.com
- * Copyright 2015 Script Eden
- * Licensed under MIT
-*/
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);*/
+/*@import url(http://fonts.googleapis.com/css?family=Lobster);*/
+@font-face{
+	font-family: 'Raleway';
+	src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face{
+	font-family: 'Lobster';
+	src: url(../fonts/Lobster/Lobster.ttf);
+}
 
 figcaption>p{
 	font-weight: 700;
