@@ -3,10 +3,12 @@
 @font-face{
 	font-family: 'Raleway';
 	src: url(../fonts/Raleway/Raleway-Regular.ttf);
+	font-display: fallback;
 }
 @font-face{
 	font-family: 'Lobster';
 	src: url(../fonts/Lobster/Lobster.ttf);
+	font-display: fallback;
 }
 
 figcaption>p{
