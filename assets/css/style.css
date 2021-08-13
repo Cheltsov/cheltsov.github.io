@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 /*!
  * Clean v2.0.0
@@ -558,7 +559,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+	font-family: 'Acme', sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
