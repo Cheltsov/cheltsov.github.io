@@ -49,7 +49,7 @@
 	<section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
 		<div class="intro">
-			<img src="./assets/images/2-test.png" alt="" width="200" style="border-radius: 500px; " id="my-photo">
+			<img src="./assets/images/webp/i-with-diploma-square.webp" alt="" width="200" style="border-radius: 500px; " id="my-photo">
 			<div class="start">Hello, my name is Cheltsov Konstantin and I am</div>
 
 			<h1>Fullstack Web Developer</h1>
@@ -92,7 +92,7 @@
 						<li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Works</a></li>
                         <li><a href="#skills">Skills</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#soft_skills">Soft Skills</a></li>
 						<li><a href="#footer">Contact</a></li>
 						<li><a href="index.html">RU</a></li>
 					</ul>
@@ -231,7 +231,7 @@
 
                         	<a class="gallery-work" href="assets/images/diploma.jpg" target="_blank" title="Press">
 
-                            <img src="assets/images/small-diploma.jpg" alt="Diploma"  />
+                            <img src="assets/images/webp/800/small-diploma.webp" alt="Diploma"  />
 
 	                            <figcaption >
 	                               <!--<h2>Landing <span>Page</span></h2>-->
@@ -249,7 +249,7 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                         	<a class="gallery-work" href="assets/images/work4.png" target="_blank" title="Press">
-	                            <img src="assets/images/lading-online-4.jpg" alt="img01"/>
+	                            <img src="assets/images/webp/800/lading-online-4.webp" alt="img01"/>
 	                            <figcaption>
 	                               <!-- <h2>Funny <span>Tortoise</span></h2>-->
 	                                <p>Landing page for sale of services of development of sites</p>
@@ -265,7 +265,7 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                         	<a class="gallery-work" href="assets/images/work3.png" target="_blank" title="Press">
-	                            <img src="assets/images/pkrushinin.jpg" alt="img01"/>
+	                            <img src="assets/images/webp/800/pkrushinin.webp" alt="img01"/>
 	                            <figcaption>
 	                                <!--<h2>The <span>Hat</span></h2>-->
 	                                <p>Website for selling landing pages</p>
@@ -300,7 +300,7 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                         	<a class="gallery-work" href="assets/images/work5.jpg" target="_blank" title="Press">
-	                            <img src="assets/images/sklad-excel.jpg" alt="img01"/>
+	                            <img src="assets/images/webp/800/sklad-excel.webp" alt="img01"/>
 	                            <figcaption>
 	                              <!--  <h2>Bang <span>Bang</span></h2>-->
 	                                <p>Site on Wordpress for selling programs in Excel</p>
@@ -334,7 +334,7 @@
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<a class="gallery-work" href="assets/images/work7.png" target="_blank" title="best-realty.ru">
-								<img src="assets/images/best.png" alt="img07"/>
+								<img src="assets/images/webp/800/best.webp" alt="img07"/>
 								<figcaption>
 									<!-- <h2>Don't <span>Poke</span></h2>-->
 									<p>Real estate company website </p>
@@ -366,7 +366,7 @@
 					<div class="grid wow zoomIn">
 						<figure class="effect-bubba">
 							<a class="gallery-work" href="assets/images/work9.png" target="_blank" title="saumalmilk.ru">
-								<img src="assets/images/saumalmilk.png" alt="img07"/>
+								<img src="assets/images/webp/800/saumalmilk.webp" alt="img07"/>
 								<figcaption>
 									<!-- <h2>Don't <span>Poke</span></h2>-->
 									<p>The website of the company for the provision of bath services</p>
@@ -469,7 +469,7 @@
 
 	<!-- Testimonials start -->
 
-	<section id="testimonials" class="pfblock pfblock-gray">
+	<section id="soft_skills" class="pfblock pfblock-gray">
 
 		<div class="container">
 
@@ -478,10 +478,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My hobbies</h2>
+						<h2 class="pfblock-title">Soft skills</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							My hobbies are what I can afford in my leisure. This is what I can do between projects and get a rest.
+							I can work in a team, quickly solve assigned tasks and learn new things. I always achieve my goals. I have experience in building applications and managing a development team
 						</div>
 					</div>
 
@@ -489,7 +489,7 @@
 
 			</div><!-- .row -->
 
-            <div class="row">
+            <!--<div class="row">
 
 			<div id="cbp-qtrotator" class="cbp-qtrotator">
                 <div class="cbp-qtcontent">
@@ -509,7 +509,7 @@
 
             </div>
 
-            </div><!-- .row -->
+            </div>--><!-- .row -->
 
 
 		</div><!-- .row -->
@@ -572,7 +572,7 @@
 
                     </p>
                     <p class="copyright">
-                        © 2021 Cheltsov Konstantin
+						© <span id="current_year" style="color: white"></span> Cheltsov Konstantin
 					</p>
 
 				</div>
@@ -604,7 +604,12 @@
     <script src="assets/js/jquery.cbpQTRotator.js"></script>
 	<script src="assets/js/custom.js"></script>
 
-
+	<script>
+		$(document).ready(function(){
+			let date = new Date();
+			$('#current_year').text(date.getFullYear());
+		})
+	</script>
 
 
 
