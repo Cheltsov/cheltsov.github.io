@@ -299,7 +299,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/item-3.jpg);
+    background: url(../images/webp/item-3.webp);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -347,7 +347,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(../images/webp/cover.webp);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
